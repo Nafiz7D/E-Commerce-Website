@@ -19,7 +19,7 @@ const Banner = ({ data }) => {
           {/* second col */}
           <div className="h-full flex items-center">
             <img
-              className="scale-125 w-[250px] md:w-[340px]"
+              className="w-[250px] md:w-[340px]"
               src={data.image}
               alt=""
             />
